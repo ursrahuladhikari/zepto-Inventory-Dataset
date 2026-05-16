@@ -22,6 +22,17 @@ The analysis includes:
 
 ---
 
+# Repository Structure
+
+- **`kaggle Data/`**: Folder where the raw dataset downloaded directly from Kaggle is present.
+- **`zepto_v2_utf8.csv`**: The dataset converted into UTF-8 CSV format to ensure seamless import into PostgreSQL without encoding errors.
+- **`Zepto_inventory.sql`**: The SQL script containing all the queries run during the execution of this project (table creation, data cleaning, and business insights).
+- **`Analysing the ZEPTO Inventory Dataset Using PostgreSQL.docx`**: The complete Word document acting as a comprehensive guide throughout the project, documenting query execution and results.
+- **`zepto_inventory.md`**: Markdown representation of the project steps and analysis.
+- **`zepto_inventory_advanced_analysis.md`**: Advanced follow-up analysis featuring interactive dashboard integration using Python.
+
+---
+
 # Dataset Source
 
 Dataset from Kaggle:
@@ -378,4 +389,5 @@ The analysis provides insights into pricing, discounts, stock availability, prod
 
 # Author
 
-Rahul Adhikari
+**Rahul Adhikari**  
+GitHub: [ursrahuladhikari](https://github.com/ursrahuladhikari)
